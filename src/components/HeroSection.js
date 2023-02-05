@@ -2,7 +2,7 @@ import React from 'react'
 import {Button} from './Button';
 import './HeroSection.css';
 import '../App.css';
-import backgroundVideo from '../assets/video-2.mp4'
+import backgroundVideo from '../assets/video-1.mp4'
 
 function HeroSection() {
   return (
@@ -10,8 +10,8 @@ function HeroSection() {
         <video autoPlay loop muted id = 'video'>
           <source src={backgroundVideo} type='video/mp4'/>
         </video>
-        <h1>Hello</h1>
-        <p>What is up</p>
+        <h1>WildLife India</h1>
+        <p>Mother Nature</p>
         <div className='hero-btns'>
             <Button className='btns' buttonStyle='btn--primary'
             buttonSize='btn--large'>

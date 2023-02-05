@@ -8,7 +8,7 @@ function Footer() {
     <div className='footer-container'>
       <section className='footer-subscription'>
         <p className='footer-subscription-heading'>
-          Join the Adventure newsletter to receive our best vacation deals
+          Join the Adventure 
         </p>
         <p className='footer-subscription-text'>
           You can unsubscribe at any time.
@@ -30,10 +30,10 @@ function Footer() {
           <div class='footer-link-items'>
             <h2>About Us</h2>
             <Link to='/sign-up'>How it works</Link>
-            <Link to='/'>Testimonials</Link>
-            <Link to='/'>Careers</Link>
-            <Link to='/'>Investors</Link>
-            <Link to='/'>Terms of Service</Link>
+            <Link to='/'>Copyright policy</Link>
+            <Link to='/'>FAQ</Link>
+            <Link to='/'>Help</Link>
+            <Link to='/'>Privacy</Link>
           </div>
           <div class='footer-link-items'>
             <h2>Contact Us</h2>
@@ -64,11 +64,11 @@ function Footer() {
         <div class='social-media-wrap'>
           <div class='footer-logo'>
             <Link to='/' className='social-logo'>
-              TRVL
+              StarGaze
               <i class='fab fa-typo3' />
             </Link>
           </div>
-          <small class='website-rights'>TRVL © 2020</small>
+          <small class='website-rights'>StarGaze © 2020</small>
           <div class='social-icons'>
             <Link
               class='social-icon-link facebook'
