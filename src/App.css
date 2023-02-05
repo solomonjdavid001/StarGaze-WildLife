@@ -7,8 +7,7 @@
   
   .home,
   .services,
-  .products,
-  .sign-up {
+  .products{
     display: flex;
     height: 90vh;
     align-items: center;
@@ -35,10 +34,13 @@
   }
   
   .sign-up {
-    background-image: url('./assets/images/img-4.jpg');
+    background-image: url('./assets/images/Banner-6.jpg');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
     color: #fff;
-    font-size: 100px;
+  }
+
+  .sign-up {
+    height: 90vh;
   }

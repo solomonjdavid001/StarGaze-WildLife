@@ -46,7 +46,7 @@ function Footer() {
         <div className='footer-link-wrapper'>
           <div class='footer-link-items'>
             <h2>Videos</h2>
-            <Link to='/'>Submit Video</Link>
+            <Link to='/'>WildLife</Link>
             <Link to='/'>Ambassadors</Link>
             <Link to='/'>Agency</Link>
             <Link to='/'>Influencer</Link>
@@ -68,7 +68,7 @@ function Footer() {
               <i class='fab fa-typo3' />
             </Link>
           </div>
-          <small class='website-rights'>StarGaze © 2020</small>
+          <small class='website-rights'>StarGaze © 2022</small>
           <div class='social-icons'>
             <Link
               class='social-icon-link facebook'
